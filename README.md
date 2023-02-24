@@ -1,4 +1,4 @@
-# Redis Cluter and Configuration
+# Redis Cluster and Configuration
 
 -   Redis master
 -   Redis workers (default: 6)
@@ -28,6 +28,10 @@ make clean
 ```shell
  REDIS_WORKER_COUNT=16 make clean
 ```
+
+### Redis in `docker-compose`
+
+-   Reference: [bpaulino.com](https://bpaulino.com/entries/how-to-use-redis-cluster-for-caching)
 
 ### Contributors
 
